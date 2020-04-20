@@ -1,0 +1,407 @@
+<!DOCTYPE HTML>
+<!--
+	Dimension by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Florian Sarron's personal page</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<div class="logo">
+						</div>
+						<div class="content">
+							<div class="inner">
+								<h1>Florian Sarron</h1>
+								<h3>Postdoctoral researcher</h3>
+								<p>University of Nottingham - Chris Conselice's team</p>
+							</div>
+						</div>
+						<nav>
+							<ul>
+								<li><a href="#CV">CV</a></li>
+								<li><a href="#Research">Research</a></li>
+								<!--<li><a href="#about">About</a></li>-->
+								<li><a href="#contact">Contact</a></li>
+								<!--<li><a href="#elements">Elements</a></li>-->
+							</ul>
+						</nav>
+					</header>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Intro -->
+							<article id="CV">
+							  <!--<h2 class="major">CV</h2>-->
+							  <td><embed src="CV_FSarron_Pub_2020.pdf" type="application/pdf" width="100%" height="650px" />
+							    <!--<a href="CV_FSarron_English.pdf"><i>CV in English<br></i></a>-->
+							    <p>(full page version <a href="http://www2.iap.fr/users/sarron/CV_FSarron_Pub_2020"><b>here</b>)</a></p>
+
+							</article>
+
+						<!-- Work -->
+							<article id="Research">
+							  <h2 class="major">Research</h2>
+
+
+<p> Here is a link to all my publications registered in ADS : <a href="http://adsabs.harvard.edu/cgi-bin/nph-abs_connect?return_req=no_params&author=Sarron,%20F.&db_key=AST"><b>ADS publications</b> </a></p>
+
+<p>Below I detail some of the  projects I have been spending time on during my PhD project and since then...</p>
+							  
+							
+								<h3><td>1. Cosmic web filaments in the CFHTLS</h3>
+
+							  <p>
+							   The importance of groups of galaxies and cosmic filaments in pre-processing the galaxy population before they enter galaxy clusters is not yet clear.  The work soon to be submitted in Sarron
+et al. (in prep), presented and reviewed by the jury in my PhD thesis manuscript focused on this aspect.
+To detect cosmic filaments around AMASCFI clusters in the CFHTLS, we adapted the method proposed by Laigle et al.
+(2018). The method consists in looking for filaments in the two-dimensional projected galaxy distribution in
+							   redshift slices. The filament detection is done with DisPerSE (Sousbie 2011), a ridge finder algorithm.</p>
+							  <p> <b>Stay tuned for the results in the upcoming paper!</b>
+							  </p>
+
+								<span class="image main"><img src="images/CW_website_ZOOM.png" alt="" /><i>Reconstruction of the connected cosmic web filaments around a massive cluster the 100 deg2 EUCLID lightcone from Merson et al (2013). The reconstruction in a 2D slice using photometric redshift is shown in <b>green</b>, while the true 3D skeleton projected in the slice is shown in <b>black</b>. The filaments are detected using DisPerSE (Sousbie 2011). The <b>red</b> circle has a 1.5 cMpc radius.</i> </span>
+
+							  <h3><td>2. A cluster finding algorithm : AMASCFI</h3>
+
+<p> I designed an algorithm called the Adami, MAzure and Sarron Cluster FInder (AMASCFI) to detect clusters of galaxies using large photometric surveys. <br>
+  The main idea behind AMASCFI is to look for overdensities in overlapping redshift slices of the galaxy catalogue and then merge them into cluster candidates using a friend-of-friend algorithm. A mass estimate of the cluster candidates is derived a posterori using a scaling relation with the cluster richness.<br>
+  The algorithm was built to handle large data sets such as Euclid or the Large Synoptic Survey Telescope (LSST), particularly using parallel programming on computer clusters. <p>
+
+<p>  I successfully applied AMASCFI to the full 154 deg2 of the CFHTLS in Sarron et al. (2018). We detected 7100 cluster candidates up to z = 1.1. The cluster candidate catalogue is publicly available on the <a href="http://vizier.cfa.harvard.edu/viz-bin/VizieR?-source=J/A+A/613/A67"><b>VizieR portal</b></a>. </p>
+
+<p>Details on the AMASCFI algorithm, its selection function and the CFHTLS cluster candidate catalogue can be found in <a href="http://adsabs.harvard.edu/abs/2018A%26A...613A..67S"><b>Sarron, F., Martinet, N., Durret, F., et al. 2018, A&amp;A, 613, A67</b></a>
+</p>
+
+<p> I will do my best to publicly release AMASCFI (set of fortran routines) through github in the future...</p>
+
+							      <span class="image main"><img src="images/cluster-050.png" alt="" /><i>Galaxy cluster detected by AMASCFI at a redshift z = 0.52 </i> </span>
+							      
+								    <!--<embed src="https://www.aanda.org/articles/aa/pdf/2018/05/aa31981-17.pdf#toolbar=0&navpanes=0&scrollbar=0" type="application/pdf" width="100%" height="600px" />-->
+
+<!--<td><a href="Sarron_GLF_220917_v1-submitAA-printer.pdf"><i>Sarron, F., Martinet, N., Durret, F., et al. 2017, AA, submitted<br>(Click to see the draft of the paper)</i></a>-->
+
+
+
+							  <h3>  <td>3. Cluster galaxy luminosity function in the CFHTLS</h3>
+
+							      <p>
+								To study <b>environmental galaxy quenching</b>, we built the <b>galaxy luminosity function (GLF)</b> of AMASCFI cluster candidates (Sarron et al. 2018) for two galaxy populations: passive and star-forming. The segregation between the two populations was done using the photo-z code LePhare (Ilbert et al. 2006).</p>
+								
+								<p>The size of our sample allowed us to explore jointly the redshift evolution and cluster mass dependence, thus <b>breaking the degeneracy that exists between the two parameters for the first time.</b></p>
+
+
+<span class="image main"><img src="images/GLF-z.png" alt="" /><i>Redshift evolution of the Schechter fit of early-type / passive (orange, red, and brown) and late-type / star-forming(green, light blue, and deep blue) galaxy luminosity function (GLF). The shaded areas are the 68% confidence interval on the fit. Adapated from <a href="https://www.aanda.org/articles/aa/pdf/2018/05/aa31981-17.pdf">Sarron et al. (2018)</a></i> </span>
+
+								
+							      <p>The main result of our study is that the number of faint passive galaxies in clusters increases from redshift z = 0.7 to z = 0.1, the effect being slightly stronger in higher mass clusters. These results show that <b>the red sequence is already in place at z > 0.7, and it keeps being enriched between these epochs through efficient environmental quenching (i.e. suppression of star-formation)</b>
+</p>
+
+<p>
+  All the results can be found in  <a href="http://adsabs.harvard.edu/abs/2018A%26A...613A..67S"><b>Sarron, F., Martinet, N., Durret, F., et al. 2018, A&amp;A, 613, A67</b></a>
+</p>
+								
+							</article>
+
+						<!-- About -->
+						<!--	<article id="about">
+								<h2 class="major">About</h2>
+								<span class="image main"><img src="images/pic03.jpg" alt="" /></span>
+								<p>TBC.</p>
+							</article>-->
+
+						<!-- Contact -->
+							<article id="contact">
+								<h2 class="major">Contact</h2>
+								<p><td><b>Adress:</b><br>
+								    <br>Room A108<br>
+								    Centre for Astronomy & Particle Theory<br>
+								    University Park<br>
+								    Nottingham<br>
+								    NG7 2RD<br>
+								    UK<br>
+								    </p>
+								
+								<p><td><b>Email:</b><br>
+								    florian(.)sarron(at)nottingham(.)ac(.)uk</br>
+								</p>
+								
+							</article>
+
+
+							
+						<!-- Elements -->
+							<article id="elements">
+								<h2 class="major">Elements</h2>
+
+								<section>
+									<h3 class="major">Text</h3>
+									<p>This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and this is <em>emphasized</em>.
+									This is <sup>superscript</sup> text and this is <sub>subscript</sub> text.
+									This is <u>underlined</u> and this is code: <code>for (;;) { ... }</code>. Finally, <a href="#">this is a link</a>.</p>
+									<hr />
+									<h2>Heading Level 2</h2>
+									<h3>Heading Level 3</h3>
+									<h4>Heading Level 4</h4>
+									<h5>Heading Level 5</h5>
+									<h6>Heading Level 6</h6>
+									<hr />
+									<h4>Blockquote</h4>
+									<blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus lorem ipsum dolor sit amet nullam adipiscing eu felis.</blockquote>
+									<h4>Preformatted</h4>
+									<pre><code>i = 0;
+
+while (!deck.isInOrder()) {
+    print 'Iteration ' + i;
+    deck.shuffle();
+    i++;
+}
+
+print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
+								</section>
+
+								<section>
+									<h3 class="major">Lists</h3>
+
+									<h4>Unordered</h4>
+									<ul>
+										<li>Dolor pulvinar etiam.</li>
+										<li>Sagittis adipiscing.</li>
+										<li>Felis enim feugiat.</li>
+									</ul>
+
+									<h4>Alternate</h4>
+									<ul class="alt">
+										<li>Dolor pulvinar etiam.</li>
+										<li>Sagittis adipiscing.</li>
+										<li>Felis enim feugiat.</li>
+									</ul>
+
+									<h4>Ordered</h4>
+									<ol>
+										<li>Dolor pulvinar etiam.</li>
+										<li>Etiam vel felis viverra.</li>
+										<li>Felis enim feugiat.</li>
+										<li>Dolor pulvinar etiam.</li>
+										<li>Etiam vel felis lorem.</li>
+										<li>Felis enim et feugiat.</li>
+									</ol>
+									<h4>Icons</h4>
+									<ul class="icons">
+										<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+										<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+										<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+										<li><a href="#" class="icon fa-github"><span class="label">Github</span></a></li>
+									</ul>
+
+									<h4>Actions</h4>
+									<ul class="actions">
+										<li><a href="#" class="button special">Default</a></li>
+										<li><a href="#" class="button">Default</a></li>
+									</ul>
+									<ul class="actions vertical">
+										<li><a href="#" class="button special">Default</a></li>
+										<li><a href="#" class="button">Default</a></li>
+									</ul>
+								</section>
+
+								<section>
+									<h3 class="major">Table</h3>
+									<h4>Default</h4>
+									<div class="table-wrapper">
+										<table>
+											<thead>
+												<tr>
+													<th>Name</th>
+													<th>Description</th>
+													<th>Price</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td>Item One</td>
+													<td>Ante turpis integer aliquet porttitor.</td>
+													<td>29.99</td>
+												</tr>
+												<tr>
+													<td>Item Two</td>
+													<td>Vis ac commodo adipiscing arcu aliquet.</td>
+													<td>19.99</td>
+												</tr>
+												<tr>
+													<td>Item Three</td>
+													<td> Morbi faucibus arcu accumsan lorem.</td>
+													<td>29.99</td>
+												</tr>
+												<tr>
+													<td>Item Four</td>
+													<td>Vitae integer tempus condimentum.</td>
+													<td>19.99</td>
+												</tr>
+												<tr>
+													<td>Item Five</td>
+													<td>Ante turpis integer aliquet porttitor.</td>
+													<td>29.99</td>
+												</tr>
+											</tbody>
+											<tfoot>
+												<tr>
+													<td colspan="2"></td>
+													<td>100.00</td>
+												</tr>
+											</tfoot>
+										</table>
+									</div>
+
+									<h4>Alternate</h4>
+									<div class="table-wrapper">
+										<table class="alt">
+											<thead>
+												<tr>
+													<th>Name</th>
+													<th>Description</th>
+													<th>Price</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td>Item One</td>
+													<td>Ante turpis integer aliquet porttitor.</td>
+													<td>29.99</td>
+												</tr>
+												<tr>
+													<td>Item Two</td>
+													<td>Vis ac commodo adipiscing arcu aliquet.</td>
+													<td>19.99</td>
+												</tr>
+												<tr>
+													<td>Item Three</td>
+													<td> Morbi faucibus arcu accumsan lorem.</td>
+													<td>29.99</td>
+												</tr>
+												<tr>
+													<td>Item Four</td>
+													<td>Vitae integer tempus condimentum.</td>
+													<td>19.99</td>
+												</tr>
+												<tr>
+													<td>Item Five</td>
+													<td>Ante turpis integer aliquet porttitor.</td>
+													<td>29.99</td>
+												</tr>
+											</tbody>
+											<tfoot>
+												<tr>
+													<td colspan="2"></td>
+													<td>100.00</td>
+												</tr>
+											</tfoot>
+										</table>
+									</div>
+								</section>
+
+								<section>
+									<h3 class="major">Buttons</h3>
+									<ul class="actions">
+										<li><a href="#" class="button special">Special</a></li>
+										<li><a href="#" class="button">Default</a></li>
+									</ul>
+									<ul class="actions">
+										<li><a href="#" class="button">Default</a></li>
+										<li><a href="#" class="button small">Small</a></li>
+									</ul>
+									<ul class="actions">
+										<li><a href="#" class="button special icon fa-download">Icon</a></li>
+										<li><a href="#" class="button icon fa-download">Icon</a></li>
+									</ul>
+									<ul class="actions">
+										<li><span class="button special disabled">Disabled</span></li>
+										<li><span class="button disabled">Disabled</span></li>
+									</ul>
+								</section>
+
+								<section>
+									<h3 class="major">Form</h3>
+									<form method="post" action="#">
+										<div class="field half first">
+											<label for="demo-name">Name</label>
+											<input type="text" name="demo-name" id="demo-name" value="" placeholder="Florian Sarron" />
+										</div>
+										<div class="field half">
+											<label for="demo-email">Email</label>
+											<input type="email" name="demo-email" id="demo-email" value="" placeholder="mailto:florian.sarron@iap.fr" />
+										</div>
+										<div class="field">
+											<label for="demo-category">Category</label>
+											<div class="select-wrapper">
+												<select name="demo-category" id="demo-category">
+													<option value="">-</option>
+													<option value="1">Manufacturing</option>
+													<option value="1">Shipping</option>
+													<option value="1">Administration</option>
+													<option value="1">Human Resources</option>
+												</select>
+											</div>
+										</div>
+										<div class="field half first">
+											<input type="radio" id="demo-priority-low" name="demo-priority" checked>
+											<label for="demo-priority-low">Low</label>
+										</div>
+										<div class="field half">
+											<input type="radio" id="demo-priority-high" name="demo-priority">
+											<label for="demo-priority-high">High</label>
+										</div>
+										<div class="field half first">
+											<input type="checkbox" id="demo-copy" name="demo-copy">
+											<label for="demo-copy">Email me a copy</label>
+										</div>
+										<div class="field half">
+											<input type="checkbox" id="demo-human" name="demo-human" checked>
+											<label for="demo-human">Not a robot</label>
+										</div>
+										<div class="field">
+											<label for="demo-message">Message</label>
+											<textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
+										</div>
+										<ul class="actions">
+											<li><input type="submit" value="Send Message" class="special" /></li>
+											<li><input type="reset" value="Reset" /></li>
+										</ul>
+									</form>
+								</section>
+
+							</article>
+
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<p class="copyright">&copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+					</footer>
+
+			</div>
+
+		<!-- BG --> 	
+		<div id="bg"></div>
+		
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
