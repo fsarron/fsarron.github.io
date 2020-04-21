@@ -205,7 +205,7 @@
 	}
 
 	h6 {
-		color: #3355ff
+		color: #3355ff;
 		font-size: 0.6rem;
 	}
 
