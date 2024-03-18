@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://fsarron.github.io/aifolio-test//sitemap.xml
+Sitemap: https://fsarron.github.io/aifolio.test//sitemap.xml
