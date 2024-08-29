@@ -2,26 +2,25 @@
 layout: about
 title: about
 permalink: /
-subtitle: 
+subtitle: Hi, I am a PhD in Astrophysics now working on Imaging Inverse Problems in optical microscopy with deep learning.
+
 
 profile:
   align: right
   image: profile_pic.png
   image_circular: true # crops the image to make it circular
   more_info: >
-  <p><small><i class="fab fa-github"></i> <a href="https://github.com/fsarron"> @fsarron</a></small></p> 
+    <p>555 your office number</p>
+    <p>123 your address street</p>
+    <p>Your City, State 12345</p>
 
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Hi, I am a PhD in Astrophysics now working on Imaging Inverse Problems in optical microscopy with deep learning.
+Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
-I work in collaboration with Pierre Weiss in the Mambo team in Toulouse, as part of the MicroBlind ANR project (https://anr.fr/Project-ANR-21-CE48-0008). I am interested in using deep learning for blind deblurring of fluorescence microscopy images. We are also working on instance segmentation of individuals cells in biological sample with partial annotations using neural networks.  
+Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
 
-Over the course of my career in Astrophysics (PhD 2018), while studying galaxy evolution using large photometric surveys, I have developped a strong interest in inverse problem solving via a Bayesian approach. This led me to take the position in the Mambo team to further explore inverse problem solving in high dimensions in a different context.
-
-I am still partially doing research in Astrophysics. I mainly study the evolution of star-formation in galaxies through cosmic time. I am interested in understanding the role played by the environment surrounding galaxies on large scale on their history and their fate. I am still actively invested in several international collaborations (Euclid, XCLASS)
-
-I have also developped several open-source pyhton programs over the years for my own research, or inside collaborations. Some of them can be found in `_pages/repositories.md`
+Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
