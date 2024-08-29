@@ -4,7 +4,7 @@ permalink: /teaching/
 title: teaching
 description:
 nav: true
-nav_order: 6
+nav_order: 5
 ---
 
 During my PhD, I have been an teaching assistant for 3 years (2015-2018) in physics in 1st and 2nd year of physics. I have taught TD, TP and colles in classical meachnics, hydrodynimcs and thermodynamics for a total of 192h.
