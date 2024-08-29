@@ -19,7 +19,6 @@
       institution: Université Paris Diderot - Paris 7 - Observatoire de Paris Meudon (OBSPM)
       year: 2015
 
-
 - title: Experience
   type: time_table
   contents:
@@ -27,17 +26,17 @@
       institution: Institut de Recherche en Informatique de Toulouse (IRIT) / Centre de Biologie Intégrative (CBI), Toulouse, France
       year: 2024 - now
       description:
-        - Postdoctoral researcher in the Mambo team (PI - Pierre Weiss) 
+        - Postdoctoral researcher in the Mambo team (PI - Pierre Weiss)
         - Optimizing optical micoscope using Deep Learning and Bayesian Statistics
         - title: Projects
           contents:
             - ANR MicroBlind - Optical fluorescence microscope blind deblurring using deep unrolled networks
-            - Instance segmentation of cells in images of biological samples with partial annotations using physics and deep learning. 
+            - Instance segmentation of cells in images of biological samples with partial annotations using physics and deep learning.
     - title: CNES Postdoctoral Fellow
       institution: Institut de Recherche en Astrophysique et Planétologie (IRAP), Toulouse, France
       year: 2022 - 2024
       description:
-        - PI of the CNES fellowship PICTOGALE "Photometric investigation of cluster of galaxies toward Euclid" 
+        - PI of the CNES fellowship PICTOGALE "Photometric investigation of cluster of galaxies toward Euclid"
         - Active member of the Euclid consortium, GOGREEN collaboration and XCLASS collaboration
 
     - title: Postdoctoral researcher
@@ -47,7 +46,6 @@
         - Postdoctoral researcher in the team of Chris Conselice
         - Studying galaxy evolution in cluster and groups up to redshift z = 2.5 in deep near-infrared surveys (COSMOS, UDS, ...)
 
-
 - title: Open Source Projects
   type: time_table
   contents:
@@ -56,7 +54,7 @@
       description: Deep Inverse is an open-source pytorch library for solving imaging inverse problems using deep learning.
     - title: <a href="https://github.com/fsarron/detectifz">DETECTIFz (lead)</a>
       year: 2020-now
-      description: DETECTIFz is a galaxy group finder for multibnad photometric surveys, leveraging multi-dimensionnal posteriors from SED fitting codes.  
+      description: DETECTIFz is a galaxy group finder for multibnad photometric surveys, leveraging multi-dimensionnal posteriors from SED fitting codes.
 
 - title: Academic Interests
   type: nested_list
@@ -68,10 +66,10 @@
         - Data clustering with uncertain observations (in astrophysics - galaxy cluster detection)
     - title: Extragalactic Astrophysics
       items:
-        - Deciphering the role of environment on galaxy star-formation evolution 
+        - Deciphering the role of environment on galaxy star-formation evolution
         - Improving information extraction from photometric surveys with statistical modeling
 
-- title: Other Interests   
+- title: Other Interests
   type: list
   contents:
     - Low-carbon science and sustainability of research (member of study group in IRAP)

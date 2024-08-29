@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I just launched this new website. 
+I just launched this new website.
