@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Hi, I am a PhD in Astrophysics now working on Imaging Inverse Problems in optical microscopy with deep learning.
+subtitle: I am a <b>PhD in Astrophysics</b>. I am curently a postdoctoral researcher in Signal Processing working on <b>Imaging Inverse Problems with deep learning applied to optical microscopy </b>.
 
 profile:
   align: right
@@ -16,10 +16,14 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I work in collaboration with Pierre Weiss in the Mambo team in Toulouse, as part of the MicroBlind ANR project (https://anr.fr/Project-ANR-21-CE48-0008).
+I work in collaboration with Pierre Weiss in the Mambo team in Toulouse, as part of the [MicroBlind ANR project](https://anr.fr/Project-ANR-21-CE48-0008).
 
-I use deep learning for blind deblurring of fluorescence microscopy images. We are also working on instance segmentation of individuals cells in biological sample with partial annotations using neural networks.
+In this domain, I am carrying two main projects: 
+1. I use deep learning for blind deblurring of fluorescence microscopy images.
+2. I use neural networks for instance segmentation of individuals cells in images biological sample with partial annotations.
 
-Over the course of my career in Astrophysics (PhD 2018), while studying galaxy evolution using large photometric surveys, I have developped a strong interest in inverse problem solving via a Bayesian approach. This led me to take the position in the Mambo team to further explore inverse problem solving in high dimensions in a different context.
 
-I am still partially doing research in Astrophysics. I mainly study the evolution of star-formation in galaxies through cosmic time. I am interested in understanding the role played by the environment surrounding galaxies on large scale on their history and their fate. I am still actively invested in several international collaborations (Euclid, XCLASS).
+Over the course of my career in Astrophysics (PhD 2018), while studying galaxy evolution using large photometric surveys, I have developped a strong interest in <b>inverse problem solving via a Bayesian approach</b>. This led me to take the position in the Mambo team to further explore inverse problem solving in high dimensions in a different context.
+
+* * *
+I still work part-time on my research in Astrophysics. There, I mainly study the evolution of star-formation in galaxies through cosmic time. I am interested in understanding the role played by the environment surrounding galaxies on large scale on their history and their fate. I am still actively invested in several international collaborations (Euclid, XCLASS).
