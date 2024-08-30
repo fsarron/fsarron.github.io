@@ -2,7 +2,7 @@
 layout: page
 title: research
 permalink: /projects/
-description: A selection of research projects I have worked on in the past and present
+description: A selection of research projects I have worked on in the past and present.<br>Under active construction
 nav: true
 nav_order: 1
 display_categories: [Astrophysics, Imaging]
