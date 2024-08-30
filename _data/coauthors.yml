@@ -1,3 +1,19 @@
+"adami":
+  - firstname: ["C.", "Christophe"]
+
 "conselice":
-  - firstname: ["Christopher"]
-    url: https://research.manchester.ac.uk/en/persons/conselice
+  - firstname: ["Christopher", "Christopher J."]
+    url: https://sites.google.com/view/cconselice/home
+
+"durret":
+  - firstname: ["F.", "Florence"]
+
+"kuchner":
+  - firstname: ["Ulrike", "U."]
+  - url: https://www.ulrikekuchner.com/Ulrike_Kuchner/Welcome.html
+
+"laigle":
+  - firstname: ["Clotilde"]
+
+"martinet":
+  - firstname: ["Nicolas", "N."]
