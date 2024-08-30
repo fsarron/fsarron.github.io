@@ -1,17 +1,27 @@
 ---
 layout: page
-title: Galaxy Clusters in the CFHTLS
-description: Detection and galaxy luminosity funtion of clusters in the CFHTLS survey
-img: assets/img/Sarron2018_illustration.png
+title: Cosmic web filaments in the CFHTLS
+description: On the detection of cosmic filaments around cluster using photometric surveys. Constraints on galaxy quenching in filaments connected to clusters.
+img: assets/img/Sarron2019_illustration.png
 importance: 1
 category: Astrophysics
 related_publications: true
 ---
 
-In 2016-2017, early in my PhD, I designed an algorithm called the Adami, MAzure and Sarron Cluster FInder (AMASCFI) to detect clusters of galaxies using large photometric surveys.
-The main idea behind AMASCFI is to look for overdensities in overlapping redshift slices of the galaxy catalogue and then merge them into cluster candidates using a friend-of-friend algorithm. A mass estimate of the cluster candidates is derived a posterori using a scaling relation with the cluster richness.
-The algorithm was built to handle large data sets such as Euclid or the Rubin Large Synoptic Survey Telescope (LSST), particularly using parallel programming on computer clusters.
+In the hierarchical model struture formation in the Universe, matter aggregates in larger and larger structures over cosmic time. In particular, galaxy clusters, the most dense and massive of these large-scale structures happen to be located at the intersection of large cosmic filaments. Matter fall along these filaments into the gravitotional potential well of the cluster, either as isolated galaxies, or as galaxies already in smaller galaxy groups.
 
-I successfully applied AMASCFI to the full 154 deg2 of the CFHTLS in Sarron et al. (2018). We detected 7100 cluster candidates up to z = 1.1. The cluster candidate catalogue is publicly available on the VizieR portal.
+Yet, living in groups or cosmic filaments affect galaxy properties. In particular, their star-formation process can be stopped (quenching). Hence, it is beleived that the part of the large fraction of quenched galaxies observed in clusters in the present day Universe could have quenched before they enter these clusters. This phenomenon is referred to as *pre-processing*. In 2018, when this work started, the relative importance of this pre-processing was yet unclear.
 
-Details on the AMASCFI algorithm, its selection function and the CFHTLS cluster candidate catalogue can be found in {% cite Sarron2018 %}.
+As part of my PhD work, in {% cite Sarron2019 %} we focused on this aspect. We did so using a large photometric survey (CFHTLS), with the idea that this could give us interesting insights thanks to the cosmic volume covered by the survey, and despite the inherent noisiness of galaxy distance measures in such data. This choice was made building upon the great pioneer work of {% cite Laigle2018%} that showed the effect of cosmic filaments could be recovered in COSMOS photometric data.
+
+We adapted the method to detect cosmic filaments around AMASCFI clusters in the CFHTLS survey, for which the photometric redshift are less precise than in COSMOS. The method consists in looking for filaments in the two-dimensional projected galaxy distribution in photometric redshift slices. The filament detection is done with DisPerSE (Sousbie 2011), a ridge finder algorithm.  
+We showed that cosmic filaments effects could be *statistically* recovered for regime of multiband photometric surveys where the uncertainty of the photometric redshift is `$$ \sigma_{\rm NMAD} \leq 0.03 \times (1 + z) $$`. 
+
+We then studied the fraction of quenched galaxies in the detected candidate cosmic filaments in the vicinity of galaxy clusters. We showed that in our CFHTLS data: 
+1. the fraction of quenched galaxies around clusters is higher in filaments than in random regions up to $$d \sim 5 {\rm cMpc}$$, 
+2. this fraction decreases as one gets further away for the clusters, both in filaments and random regions.
+
+---
+
+This work lead us to start a project inside the *Euclid* consortium together with Clotilde Laigle and Ulrike Kuchner in 2020 on the role of the cosmic web role in driving galaxy evolution, and what can be inferred about it with *Euclid* data. A project on which later joined Pascale Jablonka, Nicola Malavasi, Michael Balogh, Katarina Kraljic among others.  
+This team work has lead to many interesting methodological developments, some of them will be featured in publications of the Euclid consortium in 2024, and we now have a better view of what will be reachable with *Euclid* data in the years to come.
