@@ -2,8 +2,6 @@
 layout: about
 title: about
 permalink: /
-subtitle: **P
-hD in Astrophysics**. Postdoctoral researcher on **Imaging Inverse Problems** applied to **optical microscopy**.
 description: Inverse Problems, Deep Learning, Image Analysis, Astrophysics, Data Science
 
 profile:
