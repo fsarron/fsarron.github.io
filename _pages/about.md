@@ -2,7 +2,9 @@
 layout: about
 title: about
 permalink: /
-subtitle: <strong>Postdoctoral researcher at IRIT</strong> | <em>Inverse Problems in optical microscopy</em> | <strong>PhD in Astrophysics</strong>
+subtitle: >
+    <p><strong>Postdoctoral researcher at IRIT</strong> | <em>Inverse Problems in optical microscopy</em></p> 
+    <p><strong>PhD in Astrophysics</strong></p>
 
 profile:
   align: right
