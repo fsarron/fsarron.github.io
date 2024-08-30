@@ -5,7 +5,7 @@ permalink: /projects/
 description: A selection of research projects I have worked on in the past and present
 nav: true
 nav_order: 1
-display_categories: [Imaging, Astrophysics]
+display_categories: [Astrophysics, Imaging]
 horizontal: true
 ---
 
