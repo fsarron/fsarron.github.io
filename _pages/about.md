@@ -2,7 +2,8 @@
 layout: about
 title: about
 permalink: /
-subtitle: I am a <b>PhD in Astrophysics</b>. I am curently a postdoctoral researcher in Signal Processing working on <b>Imaging Inverse Problems with deep learning applied to optical microscopy </b>.
+subtitle: I am a `P
+hD in Astrophysics`. I am curently a postdoctoral researcher in Signal Processing working on <b>Imaging Inverse Problems with deep learning applied to optical microscopy </b>.
 
 profile:
   align: right
