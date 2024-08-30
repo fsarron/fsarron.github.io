@@ -18,7 +18,8 @@ social: true # includes social icons at the bottom of the page
 
 * * *
 
-In February 2024, I started as a **postdoctoral researcher at IRIT in the MAMBO team**. I work with [Pierre Weiss](https://www.math.univ-toulouse.fr/~weiss/) as part of the [MicroBlind ANR project](https://anr.fr/Project-ANR-21-CE48-0008).
+In February 2024, I started as a **postdoctoral researcher at IRIT in the MAMBO team**.  
+I work with [Pierre Weiss](https://www.math.univ-toulouse.fr/~weiss/) as part of the [MicroBlind ANR project](https://anr.fr/Project-ANR-21-CE48-0008).
 
 I study **Inverse Problems in optical microscopy**, currently carrying two main projects: 
 1. I use **deep learning for blind deblurring** of fluorescence microscopy images.
