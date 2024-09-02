@@ -7,3 +7,7 @@ permalink: /news/
 {% include news.liquid %}
 
 ---
+
+---
+
+---
