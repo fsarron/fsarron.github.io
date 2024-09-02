@@ -92,16 +92,6 @@ p {
   margin-top: 0;
   margin-bottom: 1rem;
 }
-abbr[data-original-title],
-abbr[title] {
-  text-decoration: underline;
-  -webkit-text-decoration: underline dotted;
-  text-decoration: underline dotted;
-  cursor: help;
-  border-bottom: 0;
-  -webkit-text-decoration-skip-ink: none;
-  text-decoration-skip-ink: none;
-}
 dl,
 ol,
 ul {
@@ -419,9 +409,8 @@ pre code {
 .col-md-10,
 .col-md-2,
 .col-md-6,
-.col-sm-2,
+.col-sm-10,
 .col-sm-3,
-.col-sm-8,
 .col-sm-9 {
   position: relative;
   width: 100%;
@@ -441,25 +430,20 @@ pre code {
   max-width: 100%;
 }
 @media (min-width: 576px) {
-  .col-sm-2 {
-    -ms-flex: 0 0 16.666667%;
-    flex: 0 0 16.666667%;
-    max-width: 16.666667%;
-  }
   .col-sm-3 {
     -ms-flex: 0 0 25%;
     flex: 0 0 25%;
     max-width: 25%;
   }
-  .col-sm-8 {
-    -ms-flex: 0 0 66.666667%;
-    flex: 0 0 66.666667%;
-    max-width: 66.666667%;
-  }
   .col-sm-9 {
     -ms-flex: 0 0 75%;
     flex: 0 0 75%;
     max-width: 75%;
+  }
+  .col-sm-10 {
+    -ms-flex: 0 0 83.333333%;
+    flex: 0 0 83.333333%;
+    max-width: 83.333333%;
   }
 }
 @media (min-width: 768px) {
@@ -1574,9 +1558,6 @@ a.close.disabled {
 .border-left {
   border-left: 1px solid #dee2e6 !important;
 }
-.rounded {
-  border-radius: 0.25rem !important;
-}
 .rounded-circle {
   border-radius: 50% !important;
 }
@@ -1737,9 +1718,6 @@ a.close.disabled {
   }
   a:not(.btn) {
     text-decoration: underline;
-  }
-  abbr[title]::after {
-    content: " (" attr(title) ")";
   }
   pre {
     white-space: pre-wrap !important;
