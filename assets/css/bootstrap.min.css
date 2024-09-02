@@ -1558,8 +1558,8 @@ a.close.disabled {
 .border-left {
   border-left: 1px solid #dee2e6 !important;
 }
-.rounded-circle {
-  border-radius: 50% !important;
+.rounded {
+  border-radius: 0.25rem !important;
 }
 .clearfix::after {
   display: block;
