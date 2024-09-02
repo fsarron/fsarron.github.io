@@ -33,3 +33,5 @@ This led me to take the position in the MAMBO team to further explore inverse pr
 **I still work part-time on my research in Astrophysics**. There, I mainly study the evolution of star-formation in galaxies through cosmic time.
 I am interested in understanding the role played by the environment surrounding galaxies on large scales on their history and their fate.
 I am still actively invested in several international collaborations (Euclid, XCLASS).
+
+---
