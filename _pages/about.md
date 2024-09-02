@@ -23,9 +23,9 @@ In February 2024, I started as a **postdoctoral researcher at [IRIT](https://www
 I study **inverse problems in optical microscopy**, currently carrying two main projects:
 
 1. **Deep learning for blind deblurring** of fluorescence microscopy images.
-2. **Neural networks for instance segmentation** of individuals cells in images biological sample with *partial annotations*.
+2. **Neural networks for instance segmentation** of individuals cells in images biological sample with _partial annotations_.
 
-Over the course of my career in Astrophysics (PhD 2018), while studying galaxy evolution using large photometric surveys, I have developped a strong interest in **inverse problem solving _via_ a Bayesian approach**.  
+Over the course of my career in Astrophysics (PhD 2018), I have developped a strong interest in **inverse problem solving _via_ a Bayesian approach** while studying galaxy evolution using large photometric surveys.  
 This led me to take the position in the MAMBO team to further explore inverse problem solving in high dimensions in a different context.
 
 ---
