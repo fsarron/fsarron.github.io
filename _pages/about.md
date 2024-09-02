@@ -26,7 +26,7 @@ I study **inverse problems in optical microscopy**, currently carrying two main 
 2. **Neural networks for instance segmentation** of individuals cells in images biological sample with _partial annotations_.
 
 Over the course of my career in Astrophysics (PhD 2018), I have developped a strong interest in **inverse problem solving _via_ a Bayesian approach** while studying galaxy evolution using large photometric surveys.  
-This led me to take the position in the MAMBO team to further explore inverse problem solving in high dimensions in a different context.
+This led me to take a position in the MAMBO team to further explore inverse problem solving in high dimensions in a different context.
 
 ---
 
