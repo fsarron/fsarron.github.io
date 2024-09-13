@@ -346,10 +346,6 @@ small {
   margin-bottom: 1rem;
   font-size: 1.25rem;
 }
-.img-fluid {
-  max-width: 100%;
-  height: auto;
-}
 .figure {
   display: inline-block;
 }
@@ -1573,9 +1569,6 @@ a.close.disabled {
 }
 .border-left {
   border-left: 1px solid #dee2e6 !important;
-}
-.rounded {
-  border-radius: 0.25rem !important;
 }
 .clearfix::after {
   display: block;
