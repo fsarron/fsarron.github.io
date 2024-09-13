@@ -6,7 +6,7 @@ subtitle: <strong>• Postdoctoral researcher at IRIT</strong> | <em>Inverse Pro
 
 profile:
   align: right
-  image: profile_pic.png
+  image: none
   image_circular: false # crops the image to make it circular
   more_info: >
     <p><small><i class="fab fa-github"></i> <a href="https://github.com/fsarron"> @fsarron</a></small></p>
