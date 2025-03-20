@@ -4,13 +4,6 @@ title: about
 permalink: /
 subtitle: <strong>• Postdoctoral researcher at IRIT</strong> | <em>Inverse Problems in optical microscopy</em><br><strong>• PhD in Astrophysics</strong> | <em> Large-scale structures and galaxy evolution from imaging survey</em>
 
-profile:
-  align: right
-  image: profile_pic.png
-  image_circular: false # crops the image to make it circular
-  more_info: >
-    <p><small><i class="fab fa-github"></i> <a href="https://github.com/fsarron"> @fsarron</a></small></p>
-
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
