@@ -5,8 +5,7 @@ inline: true
 related_posts: false
 ---
 
-Two new papers on arxiv :arrow_right: check the selected publications _below_ :arrow_left:
+**Two new papers on arxiv** -- check the :arrow_right: _selected publications_ below :arrow_left:
 
 
-:telescope: ***Euclid* Q1 data was publicly released** along with [27 related science papers](https://www.cosmos.esa.int/web/euclid/q1-papers).  
-I made important contributions (3rd author) to two of those.
+-- These are part of *Euclid* Q1 data public release that came along with [27 early science papers](https://www.cosmos.esa.int/web/euclid/q1-papers).  
