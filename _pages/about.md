@@ -2,7 +2,12 @@
 layout: about
 title: about
 permalink: /
-subtitle: <strong>• Postdoctoral researcher at IRIT</strong> | <em>Inverse Problems in optical microscopy</em><br><strong>• PhD in Astrophysics</strong> | <em> Large-scale structures and galaxy evolution from imaging survey</em>
+subtitle: <strong>• Contract researcher (fixed-term) at IRIT</strong> | <em>Inverse Problems in optical microscopy</em><br><strong>• PhD in Astrophysics</strong> | <em> Large-scale structures and galaxy evolution from imaging survey</em>
+
+profile:
+  align: right
+  image: profile_pic.jpg
+  image_circular: false # crops the image to make it circular
 
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
@@ -11,7 +16,7 @@ social: true # includes social icons at the bottom of the page
 
 ---
 
-In February 2024, I started as a **postdoctoral researcher at IRIT in the MAMBO team**. I work with [Pierre Weiss](https://www.math.univ-toulouse.fr/~weiss/) as part of the [MicroBlind ANR project](https://anr.fr/Project-ANR-21-CE48-0008).
+In February 2024, I started as a **Contract researcher (fixed-term) at IRIT in the MAMBO team**. I work with [Pierre Weiss](https://www.math.univ-toulouse.fr/~weiss/) as part of the [MicroBlind ANR project](https://anr.fr/Project-ANR-21-CE48-0008).
 
 I study **inverse problems in optical microscopy**, currently carrying two main projects:
 
