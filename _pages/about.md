@@ -2,18 +2,32 @@
 layout: about
 title: about
 permalink: /
-subtitle: <strong>• Contract researcher (fixed-term) at IRIT</strong> | <em>Inverse Problems in optical microscopy</em><br><strong>• PhD in Astrophysics</strong> | <em> Large-scale structures and galaxy evolution from imaging survey</em>
+# subtitle: <strong>• Contract researcher (fixed-term) at IRIT</strong> | <em>Inverse Problems in optical microscopy</em><br><strong>• PhD in Astrophysics</strong> | <em> Large-scale structures and galaxy evolution from imaging survey</em>
+subtitle:
+<div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap;">
 
-profile:
-  align: right
-  image: profile_pic.png
-  image_circular: false # crops the image to make it circular
+<div style="flex: 1; min-width: 250px; padding-right: 1rem;">
+<strong>• Contract researcher (fixed-term) at IRIT</strong> | <em>Inverse Problems in optical microscopy</em><br>
+<strong>• PhD in Astrophysics</strong> | <em> Large-scale structures and galaxy evolution from imaging survey</em>
+</div>
+
+<div style="flex-shrink: 0;">
+<img src="/assets/img/profile_pic.png" alt="Profile" style="max-height: 150px; border-radius: 4px;">
+</div>
+
+</div>
+
+# profile:
+#   align: right
+#   image: profile_pic.png
+#   image_circular: false # crops the image to make it circular
 
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
+---
 <div style="margin-top: 2rem;"></div>
 
 In February 2024, I started as a **Contract researcher (fixed-term) at IRIT in the MAMBO team**. I work with [Pierre Weiss](https://www.math.univ-toulouse.fr/~weiss/) as part of the [MicroBlind ANR project](https://anr.fr/Project-ANR-21-CE48-0008).
