@@ -2,7 +2,7 @@
 layout: page
 title: Cosmic web filaments in the CFHTLS
 description: On the detection of cosmic filaments around cluster using photometric surveys. Constraints on galaxy quenching in filaments connected to clusters.
-img: assets/img/Sarron2019_illustration.png
+img: assets/img/Sarron2019_illustration_project.png
 importance: 1
 category: Astrophysics
 related_publications: true

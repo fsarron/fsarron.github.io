@@ -2,7 +2,7 @@
 layout: page
 title: Galaxy Clusters in the CFHTLS
 description: Detection and galaxy luminosity funtion of clusters in the CFHTLS survey
-img: assets/img/Sarron2018_illustration.png
+img: assets/img/Sarron2018_illustration_project.png
 importance: 1
 category: Astrophysics
 related_publications: true
