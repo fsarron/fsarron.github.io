@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <strong>• Contract researcher (fixed-term) at IRIT</strong> | <em>Inverse Problems in optical microscopy</em><br><strong>• PhD in Astrophysics</strong> | <em> Large-scale structures and galaxy evolution from imaging survey</em>
+subtitle: <strong>• Contract researcher (fixed-term) at IRIT</strong> | <em>Inverse Problems in optical microscopy</em><br><strong>• PhD in Astrophysics</strong> | <em> Large-scale structures and galaxy evolution from imaging survey</em><br> ---
 
 profile:
   align: right
@@ -12,8 +12,6 @@ profile:
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
----
-
 ---
 
 <div style="margin-top: 2rem;"></div>
