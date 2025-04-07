@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <strong>• Contract researcher (fixed-term) at IRIT</strong> | <em>Inverse Problems in optical microscopy</em><br><strong>• PhD in Astrophysics</strong> | <em> Large-scale structures and galaxy evolution from imaging survey</em><br> ---
+subtitle: <strong>• Contract researcher (fixed-term) at IRIT</strong> | <em>Inverse Problems in optical microscopy</em><br><strong>• PhD in Astrophysics</strong> | <em> Large-scale structures and galaxy evolution from imaging survey</em><br> <hr>
 
 profile:
   align: right
@@ -14,7 +14,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-<div style="margin-top: 2rem;"></div>
+<div style="margin-top: 0.5rem;"></div>
 
 In February 2024, I started as a **Contract researcher (fixed-term) at IRIT in the MAMBO team**. I work with [Pierre Weiss](https://www.math.univ-toulouse.fr/~weiss/) as part of the [MicroBlind ANR project](https://anr.fr/Project-ANR-21-CE48-0008).
 
