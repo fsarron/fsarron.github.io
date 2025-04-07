@@ -14,6 +14,8 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
+<div style="margin-top: 2rem;"></div>
+
 In February 2024, I started as a **Contract researcher (fixed-term) at IRIT in the MAMBO team**. I work with [Pierre Weiss](https://www.math.univ-toulouse.fr/~weiss/) as part of the [MicroBlind ANR project](https://anr.fr/Project-ANR-21-CE48-0008).
 
 I study **inverse problems in optical microscopy**, currently carrying two main projects:
