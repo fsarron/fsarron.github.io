@@ -22,11 +22,11 @@
 - title: Experience
   type: time_table
   contents:
-    - title: Postdoctoral researcher
+    - title: Contract researcher (fixed-term)
       institution: Institut de Recherche en Informatique de Toulouse (IRIT) / Centre de Biologie Intégrative (CBI), Toulouse, France
       year: 2024 - now
       description:
-        - Postdoctoral researcher in the Mambo team (PI - Pierre Weiss)
+        - Contract researcher (fixed-term) in the Mambo team (PI - Pierre Weiss)
         - Optimizing optical micoscope using Deep Learning and Bayesian Statistics
         - title: Projects
           contents:
