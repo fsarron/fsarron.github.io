@@ -2,6 +2,7 @@
 assets/css/main.scss
 _bibliography/papers.bib
 _news/announcement_2.md
+_news/announcement_3.md
 
 # Ignore all HTML files:
 **/*.html
