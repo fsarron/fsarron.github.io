@@ -48,6 +48,14 @@
   display: inline-block;
 }
 
+.repo-platform-dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #ff7f0e; // orange
+  display: inline-block;
+}
+
 .repo-icon {
   color: #3fb950;  /* GitHub green */
   font-size: 18px;
