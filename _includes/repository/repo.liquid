@@ -33,20 +33,6 @@
             {{ include.repository.stars }}
           </span>
         {% endif %}
-        {% if include.repository.platform %}
-            <span class="repo-icon">
-              {% if include.repository.platform == "github" %}
-                <i class="fa-brands fa-github"></i>
-              {% elsif include.repository.platform == "gitlab" %}
-                <i class="fa-brands fa-gitlab"></i>
-              {% elsif include.repository.platform == "codeberg" %}
-                <i class="fa fa-code-branch"></i>
-              {% endif %}
-            </span>
-          <span class="repo-language-name">
-            {{ include.repository.platform }}
-          </span>
-        {% endif %}
       </div>
 
     </div>

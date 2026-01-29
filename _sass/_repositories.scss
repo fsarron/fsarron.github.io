@@ -18,12 +18,12 @@
 }
 
 .repo-card-header {
-  font-weight: 700;
-  font-size: 1.3rem;
+  display: flex;
   margin-bottom: 10px;
-  gap: 0.5rem; 
-
+  align-items: center;       /* vertically center name and icon */
+  justify-content: space-between;  /* push name left, icon right */
 }
+
 
 .repo-card-description {
   font-size: 0.95rem;
