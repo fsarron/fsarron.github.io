@@ -1,0 +1,35 @@
+.repo-card-custom {
+  border-radius: 6px;
+  border: 1px solid var(--global-divider-color);
+  padding: 16px;
+  text-align: left;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+  background-color: var(--global-card-bg-color);
+  height: 100%;
+}
+
+.repo-card-custom:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.repo-header {
+  font-weight: 600;
+  font-size: 16px;
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.repo-description {
+  font-size: 14px;
+  margin-bottom: 12px;
+  color: var(--global-text-color-light);
+  min-height: 40px;
+}
+
+.repo-footer {
+  font-size: 13px;
+  color: var(--global-text-color-light);
+}
