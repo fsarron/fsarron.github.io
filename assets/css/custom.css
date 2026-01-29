@@ -1,35 +1,62 @@
-.repo-card-custom {
-  border-radius: 6px;
-  border: 1px solid var(--global-divider-color);
-  padding: 16px;
-  text-align: left;
-  transition: transform 0.15s ease, box-shadow 0.15s ease;
-  background-color: var(--global-card-bg-color);
+.repo-link {
+  text-decoration: none !important;
+}
+
+.gh-card {
+  border-radius: 12px;
+  padding: 20px;
   height: 100%;
+  text-align: left;
+  transition: transform 0.15s ease;
+
+  /* DARK THEME STYLE */
+  background: linear-gradient(145deg, #0d1117, #161b22);
+  border: 1px solid #30363d;
 }
 
-.repo-card-custom:hover {
+.gh-card:hover {
   transform: translateY(-3px);
-  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
 }
 
-.repo-header {
-  font-weight: 600;
-  font-size: 16px;
-  margin-bottom: 8px;
+.gh-card-header {
   display: flex;
   align-items: center;
-  gap: 6px;
-}
-
-.repo-description {
-  font-size: 14px;
+  gap: 10px;
+  font-weight: 700;
+  font-size: 20px;
+  color: #ffffff;
   margin-bottom: 12px;
-  color: var(--global-text-color-light);
-  min-height: 40px;
 }
 
-.repo-footer {
-  font-size: 13px;
-  color: var(--global-text-color-light);
+.gh-repo-icon {
+  color: #3fb950;  /* GitHub green */
+  font-size: 18px;
+}
+
+.gh-repo-name {
+  color: #ffffff;
+}
+
+.gh-card-description {
+  color: #8b949e;
+  font-size: 16px;
+  line-height: 1.4;
+  margin-bottom: 20px;
+  min-height: 48px;
+}
+
+.gh-card-footer {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #8b949e;
+  font-size: 14px;
+}
+
+.gh-lang-dot {
+  width: 12px;
+  height: 12px;
+  background-color: #3572A5;  /* default blue */
+  border-radius: 50%;
+  display: inline-block;
 }

@@ -1,35 +1,44 @@
 {% if include.repository.name %}
 
-  <div class="repo p-2 text-center">
-    <a href="{{ include.repository.url }}" target="_blank" class="text-decoration-none">
-      <div class="repo-card-custom">
-        <div class="repo-header">
-          <span class="repo-icon">
-            <svg height="16" width="16" viewBox="0 0 16 16" fill="currentColor">
-              <path d="M2 2.5A2.5 2.5 0 014.5 0h7A2.5 2.5 0 0114 2.5v11A2.5 2.5 0 0111.5 16h-7A2.5 2.5 0 012 13.5v-11z"/>
-            </svg>
-          </span>
-          <span class="repo-name">
-            {{ include.repository.name }}
-          </span>
-        </div>
+<div class="repo p-2 text-center">
+  <a href="{{ include.repository.url }}" target="_blank" class="repo-link">
+    <div class="gh-card">
 
-        <div class="repo-description">
-          {{ include.repository.description }}
-        </div>
-
-        <div class="repo-footer">
-          {% if include.repository.platform == "gitlab" %}
-            <i class="fab fa-gitlab"></i> GitLab
-          {% elsif include.repository.platform == "codeberg" %}
-            <i class="fa fa-code-branch"></i> Codeberg
-          {% else %}
-            {{ include.repository.platform | capitalize }}
-          {% endif %}
-        </div>
+      <div class="gh-card-header">
+        <span class="gh-repo-icon">
+          <i class="fas fa-book"></i>
+        </span>
+        <span class="gh-repo-name">
+          {{ include.repository.name }}
+        </span>
       </div>
-    </a>
-  </div>
+
+      <div class="gh-card-description">
+        {{ include.repository.description }}
+      </div>
+
+      <div class="gh-card-footer">
+        {% if include.repository.language %}
+          <span class="gh-lang-dot"></span>
+          <span class="gh-lang-name">
+            {{ include.repository.language }}
+          </span>
+        {% endif %}
+
+        {% if include.repository.platform %}
+          <span class="gh-platform">
+            {% if include.repository.platform == "gitlab" %}
+              <i class="fab fa-gitlab"></i>
+            {% elsif include.repository.platform == "codeberg" %}
+              <i class="fa fa-code-branch"></i>
+            {% endif %}
+          </span>
+        {% endif %}
+      </div>
+
+    </div>
+  </a>
+</div>
 
 {% else %}
 

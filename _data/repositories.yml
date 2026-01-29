@@ -1,9 +1,10 @@
 github_repos:
-  - deepinv/deepinv
   - fsarron/detectifz
+  - deepinv/deepinv
 
 external_repos:
   - name: bacycle
     url: https://codeberg.org/Bacycle/bacycle
     description: Bayesian Inference of DNA replication cycles
     platform: codeberg
+    language: Python
