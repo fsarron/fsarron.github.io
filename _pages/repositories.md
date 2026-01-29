@@ -1,14 +1,24 @@
 ---
 layout: page
 permalink: /repositories/
-title: repositories
-description: Repositories I have worked on or contributed to
+title: Repositories I have worked on
+description: 
 nav: true
 nav_order: 4
 ---
 
+## Main author, maintainer
+
 <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-stretch">
-  {% for repo in site.data.repositories.repositories %}
+  {% for repo in site.data.repositories.main_repositories %}
+    {% include repository/repo.liquid repository=repo %}
+  {% endfor %}
+</div>
+
+## Contributor
+
+<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-stretch">
+  {% for repo in site.data.repositories.contrib_repositories %}
     {% include repository/repo.liquid repository=repo %}
   {% endfor %}
 </div>
