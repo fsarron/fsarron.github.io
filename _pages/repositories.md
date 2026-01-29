@@ -7,7 +7,7 @@ nav: true
 nav_order: 4
 ---
 
-## Main author, maintainer
+## Main author | maintainer
 
 <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-stretch">
   {% for repo in site.data.repositories.main_repositories %}
@@ -15,7 +15,7 @@ nav_order: 4
   {% endfor %}
 </div>
 
-## Contributor
+## Co-author | contributor
 
 <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-stretch">
   {% for repo in site.data.repositories.contrib_repositories %}

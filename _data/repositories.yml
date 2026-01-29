@@ -5,9 +5,15 @@ main_repositories:
     platform: github
     language: Python
 
+  - name: photXclus
+    url: https://github.com/fsarron/photXclus
+    description: Bayesian redshift inference of X-ray detected clusters using photometric redshifts.
+    platform: github
+    language: Python
+
   - name: bacycle
     url: https://codeberg.org/Bacycle/bacycle
-    description: Bayesian Inference of DNA replication cycles.
+    description: Bayesian inference of bacteria DNA replication cycles.
     platform: codeberg
     language: Python
     
@@ -17,3 +23,12 @@ contrib_repositories:
     description: DeepInverse is a PyTorch library for solving imaging inverse problems using deep learning.
     platform: github
     language: Python
+   
+  - name: dissect
+    url: https://src.koda.cnrs.fr/alain.kamgoue.3/dissect-visualization
+    description: DISSECT is a tool to segment and explore cells and tissues mechanics in highly deformed 3D epithelia.
+    platform: gitlab
+    language: Python 
+    
+    
+    
