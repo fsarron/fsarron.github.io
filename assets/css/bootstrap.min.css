@@ -1582,9 +1582,35 @@ a.close.disabled {
   clear: both;
   content: "";
 }
+.d-flex {
+  display: -ms-flexbox !important;
+  display: flex !important;
+}
+.flex-column {
+  -ms-flex-direction: column !important;
+  flex-direction: column !important;
+}
+.flex-wrap {
+  -ms-flex-wrap: wrap !important;
+  flex-wrap: wrap !important;
+}
 .flex-nowrap {
   -ms-flex-wrap: nowrap !important;
   flex-wrap: nowrap !important;
+}
+.justify-content-between {
+  -ms-flex-pack: justify !important;
+  justify-content: space-between !important;
+}
+.align-items-stretch {
+  -ms-flex-align: stretch !important;
+  align-items: stretch !important;
+}
+@media (min-width: 768px) {
+  .flex-md-row {
+    -ms-flex-direction: row !important;
+    flex-direction: row !important;
+  }
 }
 .float-right {
   float: right !important;
@@ -1648,6 +1674,9 @@ a.close.disabled {
 }
 .p-1 {
   padding: 0.25rem !important;
+}
+.p-2 {
+  padding: 0.5rem !important;
 }
 .pr-2 {
   padding-right: 0.5rem !important;
