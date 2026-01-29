@@ -1,21 +1,20 @@
 <div class="repo p-2">
   <a href="{{ include.repository.url }}" target="_blank" class="repo-card-link">
     <div class="repo-card">
-
       <div class="repo-card-header">
-        <span class="repo-icon">
-          {% if include.repository.platform == "github" %}
-            <i class="fa-brands fa-github"></i>
-          {% elsif include.repository.platform == "gitlab" %}
-            <i class="fa-brands fa-gitlab"></i>
-          {% elsif include.repository.platform == "codeberg" %}
-            <i class="fa fa-code-branch"></i>
-          {% endif %}
-        </span>
         <span class="repo-card-title">
           {{ include.repository.name }}
         </span>
-      </div>
+      <span class="repo-icon">
+        {% if include.repository.platform == "github" %}
+          <i class="fa-brands fa-github"></i>
+        {% elsif include.repository.platform == "gitlab" %}
+          <i class="fa-brands fa-gitlab"></i>
+        {% elsif include.repository.platform == "codeberg" %}
+          <i class="fa fa-code-branch"></i>
+        {% endif %}
+      </span>
+     </div>
 
       <div class="repo-card-description">
         {{ include.repository.description }}
