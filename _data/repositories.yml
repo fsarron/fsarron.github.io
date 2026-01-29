@@ -7,4 +7,3 @@ external_repos:
     url: https://codeberg.org/Bacycle/bacycle
     description: Bayesian Inference of DNA replication cycles
     platform: codeberg
-    language: Python
