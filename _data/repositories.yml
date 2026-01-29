@@ -1,7 +1,7 @@
 main_repositories:
   - name: detectifz
     url: https://github.com/fsarron/detectifz
-    description: Galaxy cluster detection framework.
+    description: DETECTIFz is a galaxy group finder algorithm for multiband photometric galaxy surveys.
     platform: github
     language: Python
 
@@ -14,6 +14,6 @@ main_repositories:
 contrib_repositories:
   - name: deepinv
     url: https://github.com/deepinv/deepinv
-    description: PyTorch library for solving imaging inverse problems using deep learning.
+    description: DeepInverse is a PyTorch library for solving imaging inverse problems using deep learning.
     platform: github
     language: Python

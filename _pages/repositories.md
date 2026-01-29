@@ -1,8 +1,8 @@
 ---
 layout: page
 permalink: /repositories/
-title: Repositories I have worked on
-description: 
+title: repositories
+description: Repositories I have worked on
 nav: true
 nav_order: 4
 ---
