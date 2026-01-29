@@ -2,7 +2,7 @@
 layout: page
 permalink: /repositories/
 title: repositories
-description: Repositories I have worked on
+description: Public softwares and packages I have worked on, and their associated repositories
 nav: true
 nav_order: 4
 ---
