@@ -1,5 +1,5 @@
 repositories:
-  - name: detectifz
+  - name: fsarron/detectifz
     url: https://github.com/fsarron/detectifz
     description: Galaxy cluster detection framework.
     platform: github
@@ -11,7 +11,7 @@ repositories:
     platform: codeberg
     language: Python
     
-  - name: deepinv
+  - name: deepinv/deepinv
     url: https://github.com/deepinv/deepinv
     description: PyTorch library for solving imaging inverse problems using deep learning.
     platform: github
