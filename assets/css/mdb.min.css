@@ -2924,12 +2924,6 @@ a.waves-light {
 .btn.btn-block {
   margin: inherit;
 }
-.btn .fas.right {
-  margin-left: 0.3rem;
-}
-.btn .fas.left {
-  margin-right: 0.3rem;
-}
 .btn.btn-sm {
   padding: 0.5rem 1.6rem;
   font-size: 0.64rem;
@@ -3179,10 +3173,6 @@ a.btn:not([href]):not([tabindex]):hover {
 }
 .navbar .nav-item .nav-link.disabled:active {
   pointer-events: none;
-}
-.navbar .nav-item .nav-link .fas {
-  padding-right: 3px;
-  padding-left: 3px;
 }
 @media (max-width: 992px) {
   .navbar .nav-item .nav-link {
