@@ -1,9 +1,18 @@
-github_repos:
-  - fsarron/detectifz
-  - deepinv/deepinv
+repositories:
+  - name: detectifz
+    url: https://github.com/fsarron/detectifz
+    description: Galaxy cluster detection framework.
+    platform: github
+    language: Python
 
-external_repos:
   - name: bacycle
     url: https://codeberg.org/Bacycle/bacycle
-    description: Bayesian Inference of DNA replication cycles
+    description: Bayesian Inference of DNA replication cycles.
     platform: codeberg
+    language: Python
+    
+  - name: deepinv
+    url: https://github.com/deepinv/deepinv
+    description: PyTorch library for solving imaging inverse problems using deep learning.
+    platform: github
+    language: Python
