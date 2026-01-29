@@ -1722,9 +1722,6 @@ a.close.disabled {
 .font-italic {
   font-style: italic !important;
 }
-.text-decoration-none {
-  text-decoration: none !important;
-}
 .visible {
   visibility: visible !important;
 }
