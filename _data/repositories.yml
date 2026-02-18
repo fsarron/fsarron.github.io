@@ -6,9 +6,9 @@ main_repositories:
     language: Python
 
   - name: photXclus
-    url: https://github.com/fsarron/photXclus
+    url: https://codeberg.org/fsarron/photXclus
     description: Bayesian redshift inference of X-ray detected clusters using photometric redshifts.
-    platform: github
+    platform: codeberg
     language: Python
 
   - name: bacycle
